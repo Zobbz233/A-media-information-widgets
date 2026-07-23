@@ -21,6 +21,7 @@ Browser filtering — Browser tabs only match when they contain streaming keywor
 Key simulation — Button clicks send multimedia keys (VK_MEDIA_PLAY_PAUSE, etc.) via user32.keybd_event()
 State tracking — Maintains a local play/pause state toggled on button press
 
+<img width="475" height="188" alt="image" src="https://github.com/user-attachments/assets/c4f9bc2a-0a86-4e97-9ad6-1aa41a69739e" />
 
 这是什么？
 一个 轻量级 Windows 桌面悬浮窗，基于Python，实时显示当前电脑正在播放的音乐信息。放在桌面右下角，无需打开播放器就能看到歌曲名和艺术家。
