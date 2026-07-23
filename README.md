@@ -44,12 +44,3 @@ State tracking — Maintains a local play/pause state toggled on button press
 状态跟踪 — 本地维护播放/暂停状态，按钮点击时同步切换
 📁 文件结构
 
-C:\Users\zobbz\Desktop\音乐小组件\
-├── music_widget.py        # 主程序（540+ 行）
-├── 启动小组件.bat          # 双击启动快捷方式
-🚀 使用方式
-启动：双击 启动小组件.bat
-退出：右键托盘图标 → 退出
-隐藏：点击 ✕ 或右键窗口
-恢复：双击托盘图标 → 显示小组件
-移动：按住窗口任意位置拖动
