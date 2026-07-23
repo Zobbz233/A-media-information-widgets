@@ -1,25 +1,3 @@
-# A-media-information-widgets
-A Windows media widgets by Python
-What is this?
-A lightweight Windows desktop overlay widget that displays your currently playing music information in real time. It sits in the corner of your screen so you can see the song title and artist without switching to your media player.
-
-✨ Features
-Feature	Description
-Live song info	Song title, artist, playback source
-Playback indicator	🟢 Green = playing / 🟡 Orange = paused / ⚫ Gray = stopped
-Media controls	⏮ Previous / ⏸ Play-Pause / ⏭ Next
-14+ player support	Spotify, NetEase Cloud Music, QQ Music, Chrome/Edge (YouTube, etc.), Firefox, VLC, PotPlayer, MPC-HC…
-System tray	Minimizes to tray on close; right-click menu to show or exit
-Translucent rounded UI	Light glassmorphism style, 88% opacity, native Windows 11 rounded corners
-Drag to move	Click and drag anywhere on the widget to reposition
-Play state detection	Auto-detects song changes; toggle state manually via button
-⚙️ How it works
-Window title scanning — Enumerates all visible Windows windows once per second
-Player identification — Matches known window class names (SpotifyMainWindow, Chrome_WidgetWin_1, OrpheusBrowserHost, etc.)
-Title parsing — Extracts "Song Title - Artist" from window titles
-Browser filtering — Browser tabs only match when they contain streaming keywords (YouTube, Spotify, Bilibili, etc.)
-Key simulation — Button clicks send multimedia keys (VK_MEDIA_PLAY_PAUSE, etc.) via user32.keybd_event()
-State tracking — Maintains a local play/pause state toggled on button press
 
 <img width="475" height="188" alt="image" src="https://github.com/user-attachments/assets/c4f9bc2a-0a86-4e97-9ad6-1aa41a69739e" />
 
