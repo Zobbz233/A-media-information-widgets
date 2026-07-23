@@ -21,5 +21,3 @@
 浏览器过滤 — 浏览器标签仅当包含 YouTube/Spotify/Bilibili 等流媒体关键词时才识别
 按键模拟 — 点击按钮通过 user32.keybd_event() 发送多媒体键（VK_MEDIA_PLAY_PAUSE 等）
 状态跟踪 — 本地维护播放/暂停状态，按钮点击时同步切换
-📁 文件结构
-
